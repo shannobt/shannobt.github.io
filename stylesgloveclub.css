@@ -1,4 +1,4 @@
-body {background-color: white}
+body {background-color: white;}
 
 .jumbotron {
     background-image: url(romance.jpg);
@@ -10,22 +10,73 @@ body {background-color: white}
     margin-right: 50px;
     margin-top: 10px;
 }
+.lead {color:white;
+    font-weight: 340;
+    text-shadow: 3px 3px 3px black;
+    text-align: right;}
 
-.nav-link {margin-top: 4px}
+.jumbotron-fluid {
+    background-image: url(romance.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 250px;
+    padding-left: 45%; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.navbar-brand{font-family: 'Noto Serif SC', serif;}
+
+.nav-link {margin-top: 4px;
+    font-family: 'Noto Serif SC', serif;}
 
 .display-4 {
     color:white;
     font-weight: 340;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 3px 3px black;
     text-align: right;
     }
 
-p {color: black}
+p {color: black;
+text-align: center;
+font-family: 'Noto Serif SC', serif;
+font-size: 35px;}
 
 .btn{color: white;
+    font-family: 'Noto Serif SC', serif;
     font-size: 18px;
     text-shadow: 2px 2px 2px black;
     margin-top: 20px;
     margin-left: 775px;
     margin-right: 600px;
 }
+
+.col-sm {font-family: 'Noto Serif SC', serif;}
+
+.container-fluid {width: 100%;
+padding-left: 10%;
+margin-top: 40px;
+}
+
+.howitworks-top{background-color: grey;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+font-family: 'Noto Serif SC', serif;
+font-size: 50px;
+}
+
+.column {
+    align-content: center;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin-left: 75px;
+  }
+
+img {border-radius: 5px;}
+
+.god{border-radius: 50%;
+margin-left: 10px;}
