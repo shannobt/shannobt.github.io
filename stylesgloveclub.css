@@ -1,0 +1,31 @@
+body {background-color: white}
+
+.jumbotron {
+    background-image: url(romance.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 750px;
+    padding-left: 45%; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.nav-link {margin-top: 4px}
+
+.display-4 {
+    color:white;
+    font-weight: 340;
+    text-shadow: 2px 2px 2px black;
+    text-align: right;
+    }
+
+p {color: black}
+
+.btn{color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+    margin-left: 775px;
+    margin-right: 600px;
+}
